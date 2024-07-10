@@ -67,6 +67,37 @@
 }
 
 
+/*ABOUT US*/
+
+
+#imgInicio4{
+  height: 450px;
+  width: 630px;
+}
+
+/*SmartPhones*/
+
+@media (max-width: 767px){
+
+  #imgInicio4{
+    height: 180px;
+    width: 350px;
+  }
+
+
+}
+
+/* Tabletas pequeñas */
+@media (min-width: 768px) and (max-width: 1023px){
+
+  #imgInicio4{
+    height: 220px;
+    width: 390px;
+  }
+
+}
+
+
 
 /*PROJECTOS*/
 
