@@ -1,6 +1,71 @@
+/*INICIO*/
+
+#imgInicio2{
+
+  height: 480px;
+  width: 1030px;
+
+}
+
+#imgInicio3{
+
+  height: 460px;
+  width: 1010px;
+
+}
+
+/*SmartPhones*/
+
+@media (max-width: 767px){
+
+  #imgInicio3{
+
+    height: 180px;
+    width: 350px;
+  
+  }
+
+  #imgInicio2{
+
+    height: 200px;
+    width: 350px;
+  
+  }
+
+  #imgInicio{
+
+    height: 250px;
+    width: 350px;
+  }
+
+}
+
+/* Tabletas pequeñas */
+@media (min-width: 768px) and (max-width: 1023px){
+
+  #imgInicio3{
+
+    height: 160px;
+    width: 330px;
+  
+  }
 
 
-/*PORTAFOLIO*/
+  #imgInicio2{
+
+    height: 180px;
+    width: 330px;
+  
+  }
+
+  #imgInicio{
+
+    height: 230px;
+    width: 330px;
+  }
+  
+}
+
 
 
 /*PROJECTOS*/
