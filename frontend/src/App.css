@@ -141,3 +141,36 @@ h3, h4, h5{
   h5{
     font-size: 15px;
   }
+
+
+
+/*FORM ENVIADO*/
+
+
+#imgInicio5{
+  height: 450px;
+  width: 630px;
+}
+
+
+/*SmartPhones*/
+
+@media (max-width: 767px){
+
+  #imgInicio5{
+    height: 180px;
+    width: 350px;
+  }
+
+
+}
+
+/* Tabletas pequeñas */
+@media (min-width: 768px) and (max-width: 1023px){
+
+  #imgInicio5{
+    height: 220px;
+    width: 400px;
+  }
+
+}
