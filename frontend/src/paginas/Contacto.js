@@ -26,6 +26,7 @@ function Contacto() {
       <Container>
         <h1 className="mt-4" style={textStyle}>FORMULARIO DE CONTACTO</h1>
         <h4 style={textStyle}>Cualquier duda o comentario envíanos un mensaje!</h4><br />
+        <img classname="imgContacto"id ="imgInicio4"alt ="imgForm" src ="./imagenes/imgForm.jpg"/><br />
         <Row className="mt-4 align-items-center">
           <Col md={6} className="mb-4">
             <img alt="" id="imagenContacto" src="" />
