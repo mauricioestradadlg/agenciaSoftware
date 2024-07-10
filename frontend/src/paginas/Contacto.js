@@ -1,6 +1,7 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import BotonWha from './BotonWha';
 
 const textStyle = {
   color: 'white',
@@ -64,6 +65,7 @@ function Contacto() {
             </Form>
           </Col>
         </Row>
+        <BotonWha/>
       </Container>
       <br />
     </main>

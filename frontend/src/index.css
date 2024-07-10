@@ -152,7 +152,6 @@ ul li {
 
 
 
-
 /* FOOTER */
 
 footer{
@@ -164,6 +163,14 @@ footer{
   margin-bottom: 0px;
   padding: 20px;
   flex-shrink: 0; /* Evita que el footer se encoja cuando hay poco contenido */
+}
+
+#divFooter{
+  display: inline-block;
+}
+
+#fb{
+  margin-left: 10px;
 }
 
 
