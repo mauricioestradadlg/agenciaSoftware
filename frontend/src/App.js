@@ -10,6 +10,7 @@ import Inicio from './paginas/Inicio';
 import AboutUs from './paginas/AboutUs';
 import Portafolio from './paginas/Portafolio';
 import Contacto from './paginas/Contacto';
+import FormEnviado from './paginas/FormEnviado';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs/>} />
           <Route path="/portafolio" element={<Portafolio/>} />
           <Route path="/contacto" element={<Contacto/>} />
+          <Route path="/formEnviado" element={<FormEnviado />} />
         </Routes>
         <Footer />
 
