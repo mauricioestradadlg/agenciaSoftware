@@ -179,3 +179,11 @@ main{
   flex: 1;
 }
 
+
+#blogFooter{
+
+  font-size: 20px;
+  color: black;
+  text-shadow: none;
+}
+

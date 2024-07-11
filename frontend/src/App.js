@@ -11,7 +11,10 @@ import AboutUs from './paginas/AboutUs';
 import Portafolio from './paginas/Portafolio';
 import Contacto from './paginas/Contacto';
 import FormEnviado from './paginas/FormEnviado';
+import Blog from './paginas/Blog';
 
+
+import PrimerBlog from './blogs/PrimerBlog';
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/portafolio" element={<Portafolio/>} />
           <Route path="/contacto" element={<Contacto/>} />
           <Route path="/formEnviado" element={<FormEnviado />} />
+          <Route path="/blog" element={<Blog/>}/>
+
+          <Route path="/blog/primerBlog" element={<PrimerBlog/>}/>
         </Routes>
         <Footer />
 
