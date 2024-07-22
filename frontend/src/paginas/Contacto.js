@@ -18,7 +18,7 @@ function Contacto() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch('http://localhost:5000/contacto', {
+    fetch('https://agenciasoftware.onrender.com/contacto', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
