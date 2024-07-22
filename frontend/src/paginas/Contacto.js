@@ -17,9 +17,22 @@ function Contacto() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('Formulario enviado:', { nombre, correo, celular, mensaje });
-    navigate('/formEnviado');
-    // Aquí podrías agregar más lógica si fuera necesario
+
+    fetch('http://localhost:5000/contacto', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ nombre, correo, celular, mensaje })
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Formulario enviado:', data);
+      navigate('/formEnviado');
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
   };
 
   return (
@@ -27,7 +40,7 @@ function Contacto() {
       <Container>
         <h1 className="mt-4" style={textStyle}>FORMULARIO DE CONTACTO</h1>
         <h4 style={textStyle}>Cualquier duda o comentario envíanos un mensaje!</h4><br />
-        <img classname="imgContacto"id ="imgInicio4"alt ="imgForm" src ="./imagenes/imgForm.jpg"/><br />
+        <img className="imgContacto" id="imgInicio4" alt="imgForm" src="./imagenes/imgForm.jpg" /><br />
         <Row className="mt-4 align-items-center">
           <Col md={6} className="mb-4">
             <img alt="" id="imagenContacto" src="" />
