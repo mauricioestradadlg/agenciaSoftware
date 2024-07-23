@@ -18,12 +18,12 @@ import PrimerBlog from './blogs/PrimerBlog';
 
 function App() {
   return (
-    <Router basename='route'>
+    <Router basename="/rutas">
       <div>
         <Header /><br />
         <Navegation />
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/inicio" element={<Inicio />} />
           <Route path="/aboutus" element={<AboutUs/>} />
           <Route path="/portafolio" element={<Portafolio/>} />
           <Route path="/contacto" element={<Contacto/>} />
