@@ -1,0 +1,18 @@
+# Exported from Render on 2024-07-23T16:55:51Z
+services:
+- type: web
+  name: tecnologiasestrada
+  runtime: static
+  repo: https://github.com/mauricioestradadlg/agenciaSoftware
+  branch: v2
+  buildCommand: npm run build
+  staticPublishPath: build
+  domains:
+  - tecnologiasestrada.website
+  - www.tecnologiasestrada.website
+  routes:
+  - type: redirect
+    source: /*
+    destination: /
+  rootDir: frontend
+version: "1"
