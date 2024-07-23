@@ -18,7 +18,7 @@ import PrimerBlog from './blogs/PrimerBlog';
 
 function App() {
   return (
-    <Router>
+    <Router basename='route'>
       <div>
         <Header /><br />
         <Navegation />
